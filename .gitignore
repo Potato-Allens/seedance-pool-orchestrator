@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# secrets & runtime data
+.env
+*.db
+*.db-wal
+*.db-shm
+data/
+admin_token.txt
+cookies*.json
+accounts*.json
+
+# media & logs
+outputs/
+logs/
+var/
+*.mp4
+*.jpg
+*.png
+*.part
+*.log
+*.csv
+*.jsonl
+
+# os
+.DS_Store
+Thumbs.db
